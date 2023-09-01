@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Layout, Header, Footer } from "./Components/UI/organisms";
-import Menu from "./Components/UI/organisms/TopMenu/Menu";
+import { Layout, Header, Footer } from "./Components/Pages/Main";
+import Menu from "./Components/Pages/Main/TopMenu/Menu";
 function App() {
     const menu = Menu();
     return (

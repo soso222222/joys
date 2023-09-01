@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import TextButton from "../../../../Common/UI/atoms/TextButton/TextButton";
+import { TextButton } from "../../../Common";
 
 function TopMenuItem({ menu = {}, closeM }) {
     const { en, kr, url } = menu;

@@ -1,5 +1,5 @@
 import React from "react";
-import Text from "../../../../Common/UI/atoms/Text/Text";
+import Text from "../../../Common/Text/Text";
 import { Wrapper } from "./styled.Footer";
 
 function Footer() {

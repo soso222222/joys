@@ -3,10 +3,10 @@ import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import GlobalStyles from "./Common/UI/GlobalStyles";
+import GlobalStyles from "./Style/GlobalStyles";
 import App from "./App";
-import { store } from "./Common/store";
-import theme from "./Common/UI/theme";
+import { store } from "./Stores/store";
+import theme from "./Style/theme";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 const queryClient = new QueryClient();

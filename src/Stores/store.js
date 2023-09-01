@@ -5,7 +5,6 @@ import {
 } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage";
 import { persistReducer } from "redux-persist";
-import menuSlice from "../features/menu/menuSlice";
 
 const persistConfig = {
     key: "root",
@@ -15,7 +14,7 @@ const persistConfig = {
 };
 
 const reducers = combineReducers({
-    menu: menuSlice.reducer,
+    // menu: menuSlice.reducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, reducers);

@@ -1,6 +1,6 @@
 import React from "react";
 import { RemoteControl, TitleWork, Wrapper } from "./styled.Work";
-import Tag from "../../../Common/UI/atoms/Tag/Tag";
+import { Tag } from "../../Common";
 import { aceBed, admin, lifePlus } from "./data.Work";
 
 function Work() {

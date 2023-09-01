@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Wrapper } from "./styled.Main";
-import { useTransition } from "../../../../Common/Hooks";
+import useTransition from "../../../../Hooks/useTransition";
 function Main() {
     const { setTrans } = useTransition();
 

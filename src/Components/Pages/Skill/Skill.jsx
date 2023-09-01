@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Wrapper } from "./styled.Skill";
-import { useTransition } from "../../../Common/Hooks";
-import Tag from "../../../Common/UI/atoms/Tag/Tag";
+import { useTransition } from "../../../Hooks";
+import { Tag } from "../../Common";
 import {
     backend,
     certificate,

@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import { Gnb, Wrapper } from "./styled.TopMenu";
 import TopMenuItem from "./TopMenuItem";
 import Menu from "./Menu";
-import TextButton from "../../../../Common/UI/atoms/TextButton/TextButton";
-import Icon from "../../../../Common/UI/atoms/IconBox";
-import IconButton from "../../../../Common/UI/atoms/IconButton";
-import { useClass } from "../../../../Common/Hooks";
+import { useClass } from "../../../../Hooks";
+import Icon from "../../../Common/IconBox";
+import { IconButton, TextButton } from "../../../Common";
 
 function TopMenu() {
     const allMenus = Menu();
