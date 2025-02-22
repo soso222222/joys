@@ -6,7 +6,7 @@ function Footer() {
     return (
         <Wrapper id="footer">
             <Text size={14} weight={600}>
-                2022PORTFOLIO
+                PORTFOLIO
             </Text>
         </Wrapper>
     );
