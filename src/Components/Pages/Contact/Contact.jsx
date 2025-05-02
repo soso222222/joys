@@ -14,8 +14,8 @@ function Contact() {
         <Wrapper id="contact-email">
             <div className="content-box">
                 <h2>Contact</h2>
-                <p className="email">sortof259@gmail.com</p>
-                <p className="text">문의사항은 이 쪽으로 연락 부탁드립니다.</p>
+                <p className="email">-</p>
+                <p className="text">-</p>
             </div>
         </Wrapper>
     );
